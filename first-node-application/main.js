@@ -44,6 +44,9 @@ http.createServer(function (request, response) {
 //		 entail that it will run constantly until it is stopped by CTR+C
 //		 and that terminal instance will be occuppied with it until it happens?
 //		 What happens with a deployed application?
+// NOTE: Is there a relationship between this and what is said in https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm about the REPL terminal?
+//		 The REPL terminal is actually the console you get when you run '> node',
+//		 and it may have nothing to do with the fact that a server is running and a command is still running.
 console.log('Server running at http://127.0.0.1:8081/');
 
 // NOTE: When visiting http://127.0.0.1:8081/ the console showed
