@@ -1,8 +1,4 @@
 
-// To test the installation of 'express' in first-node-application.
-var express = require('express');
-console.log(express);
-
 
 // Load the http module from node and store the returned instance
 // in the http variable.
